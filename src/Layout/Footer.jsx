@@ -14,6 +14,7 @@ function Footer() {
                 <a href="https://vk.com/ghostik775/" target="blank"><FontAwesomeIcon icon={faVk} size="3x" color="#18ed34"/></a>
                 <a href="https://github.com/GHost7751/" target="blank"><FontAwesomeIcon icon={faGithubSquare} size="3x" color="#18ed34"/></a>
                 <a href="https://www.instagram.com/romkagh/" target="blank"><FontAwesomeIcon icon={faInstagram} size="3x" /></a>
+                <a href="https://www.instagram.com/romkagh/" target="blank"><FontAwesomeIcon icon={faInstagram} size="3x" /></a>
             </li>
         </div>
         </div>
