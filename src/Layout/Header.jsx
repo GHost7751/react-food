@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 
 function Header() {
         return ( <>
-    <nav className="indigo accent-1">
+    <nav className="cyan darken-4">
         <div className="nav-wrapper">
-          <a href="!#" className="brand-logo">React</a>
+          <Link to="/" className="brand-logo">React</Link>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li><Link to={`/Movie`} >Movie</Link></li>
             <li><Link to={`/Series`} >Series</Link></li>
