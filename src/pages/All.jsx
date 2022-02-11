@@ -43,6 +43,12 @@ function All(props) {
                 searchMovies(search, type);
             }
         };
+        const handleFilter = (event) => {
+            return(
+            setType(event.target.dataset.type),
+            searchMovies(search, type)
+            );
+        };
 
 
     return (
@@ -72,6 +78,17 @@ function All(props) {
                     </button>
                 </div>
                 </div>
+                <label>
+                        <input
+                            className='with-gap'
+                            name='type'
+                            type='radio'
+                            data-type='all'
+                            onChange={handleFilter}
+                            checked={type === 'all'}
+                        />
+                        <span>All</span>
+                    </label>
             {loading ? <Preloader /> : <Movies movs={movs} />}
         </main>
     );
