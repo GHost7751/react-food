@@ -7,8 +7,6 @@ function Header() {
           <Link to="/" className="brand-logo">React</Link>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li><Link to={`/All`} >All</Link></li>
-            <li><Link to={`/Movie`} >Movie</Link></li>
-            <li><Link to={`/Series`} >Series</Link></li>
           </ul>
         </div>
       </nav>
